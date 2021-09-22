@@ -1,12 +1,3 @@
 body{
     font-family: Arial;
 }
-title{
-    font-family: 'Times New Roman';
-    border-color: red;
-    border-width: 3px;
-    border-style: dashed;
-    margin: auto;
-    width: 60%; 
-    padding: 10px;
-}
