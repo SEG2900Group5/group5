@@ -43,3 +43,7 @@ body{
     border: none;
     color: #AECFE5;
 }
+
+ul{
+    display: inline;
+}
