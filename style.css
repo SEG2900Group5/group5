@@ -10,3 +10,36 @@ body{
     width: 60%; 
     padding: 10px;
 }
+
+.top-navbar {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    background: #009dc4;
+}
+
+.top-navbar.your-site-fixed {
+    border-bottom: none;
+    z-index: 4;
+}
+
+.top-navbar .your-site {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.top-navbar .top-home a{
+    color: pink;
+}
+
+.top-navbar a {
+    color: white;
+}
+
+.top-navbar li a:hover,
+.top-navbar li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
