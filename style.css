@@ -44,6 +44,21 @@ body{
     color: #AECFE5;
 }
 
+.top-navbar li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: wavy;
+}
+
 li{
-    display: inline;
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
