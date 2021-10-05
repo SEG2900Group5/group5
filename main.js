@@ -4,7 +4,8 @@ function validateForm() {
     if (x == "") {
         alert("Email must be filled out")
         return false;
-    } if (y == "") {
+    } 
+    if (y == "") {
         alert("You must enter a message")
         return false;
     }
