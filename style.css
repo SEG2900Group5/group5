@@ -3,12 +3,11 @@ body{
 }
 .title{
     font-family: 'Times New Roman';
-    border-color: red;
+    /* border-color: red;
     border-width: 3px;
-    border-style: dashed;
+    border-style: dashed; */
     margin: auto;
-    width: 60%; 
-    padding: 10px;
+    padding: 100px;
 }
 
 .top-navbar {
@@ -64,9 +63,9 @@ ul{
 }
 
 .contact{
-    border-color: black;
-    background-color: grey;
+    border: 3px black;
+    background-color: lightgrey;
     text-align: center;
     margin: auto;
-    width: 60%;
+    width: 40%;
 }
