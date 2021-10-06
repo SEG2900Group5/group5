@@ -9,9 +9,5 @@ function validateForm() {
         alert("You must enter a message")
         return false;
     }
-    const message = new String(y)   
-    console.log(message)
-    console.log(x)
-    console.log(y)
-    location.href = "mailto:electrasolutions@electra.ca"+'&subject='+"Inquiry"+'&body='+message;
+    window.location.href = "mailto:electrasolutions@electra.ca"+'&subject='+"Inquiry"+'&body='+String(x);
 }
