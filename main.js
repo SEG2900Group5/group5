@@ -10,5 +10,4 @@ function validateForm() {
         return false;
     }
     location.href = "mailto:"+"electrasolutions@electra.ca"+'?cc='+x.value+'&subject='+"Inquiry"+'&body='+y.value;
-    // window.location.href = "mailto:electrasolutions@electra.ca"+'&subject='+"Inquiry"+'&body='+y.value;
 }
