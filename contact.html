@@ -30,9 +30,9 @@
         <script src="main.js"></script>
         <div class="contact">
             <!-- I need to add a script to handle the event, maybe php or javascript if I can -->
-            <form name="contactForm" onsubmit="return validateForm(contactForm)">
+            <form name="contactForm" onsubmit="return validateForm()" method="GET">
                 <label for="umail">Your Email:</label><br>
-                <input type="text" id="uname" name="uname"><br>
+                <input type="text" id="umail" name="umail"><br>
                 <label for="message">Your Message:</label><br>
                 <input type="text" id="message" name="message" required maxlength="1000" size="70">
                 <input type="submit" value="Submit">
