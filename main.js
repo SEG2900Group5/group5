@@ -1,6 +1,8 @@
-function validateForm() {
-    let x = document.forms["contactForm"]["umail"]
-    let y = document.forms["contactForm"]["message"]
+function validateForm(form) {
+    // let x = document.forms["contactForm"]["umail"]
+    // let y = document.forms["contactForm"]["message"]
+    let x = form.contactForm.umail
+    let y = form.contactForm.message
     if (x == "") {
         alert("Email must be filled out")
         return false;
@@ -9,6 +11,6 @@ function validateForm() {
         alert("You must enter a message")
         return false;
     }
-    
-    location.href = "mailto:electrasolutions@electra.ca"+'?cc='+encodeURIComponent(x)+'&subject='+""+'&body='+encodeURIComponent(y);
+    var message = form.message.value    
+    location.href = "mailto:electrasolutions@electra.ca"+'&subject='+"Inquiry"+'&body='+message;
 }
