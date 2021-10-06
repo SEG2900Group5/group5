@@ -9,5 +9,5 @@ function validateForm() {
         alert("You must enter a message")
         return false;
     }
-    location.href = "mailto:"+"electrasolutions@electra.ca"+'&subject='+"Inquiry"+'&body='+y;
+    location.href = "mailto:"+"electrasolutions@electra.ca"+'?cc='+x+'&subject='+emailSub+'&body='+y;
 }
