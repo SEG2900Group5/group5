@@ -70,3 +70,7 @@ ul{
     margin: auto;
     width: 40%;
 }
+
+.lang{
+    float: right;
+}
