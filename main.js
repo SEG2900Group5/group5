@@ -11,3 +11,8 @@ function validateForm() {
     }
     location.href = "mailto:"+"electrasolutions@electra.ca"+'?cc='+x.value+'&subject='+"Inquiry"+'&body='+y.value;
 }
+
+function french() {
+    // get all html elements by id and change them to the proper french translation
+    document.getElementById("lang").innerHTML = "EN";
+}
