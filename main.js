@@ -14,5 +14,6 @@ function validateForm() {
 
 function french() {
     // get all html elements by id and change them to the proper french translation
+    document.getElementById("lang").addEventListener("click", french);
     document.getElementById("lang").innerHTML = "EN";
 }

@@ -71,6 +71,14 @@ ul{
     width: 40%;
 }
 
+.nav-title {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: wavy;
+}
+
 .lang{
     float: right;
 }
