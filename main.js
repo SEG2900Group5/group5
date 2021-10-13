@@ -18,4 +18,5 @@ function french() {
     document.getElementById("lang").addEventListener("click", french);
     document.getElementById("lang").innerHTML = "EN";
     document.getElementById("welcome").innerHTML = "Bienvenue dans notre projet";
+    document.getElementById("about").innerHTML = "À propos";
 }
