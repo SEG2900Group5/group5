@@ -14,6 +14,8 @@ function validateForm() {
 
 function french() {
     // get all html elements by id and change them to the proper french translation
+    // I should add the ability to go back to english when the button is clicked again
     document.getElementById("lang").addEventListener("click", french);
     document.getElementById("lang").innerHTML = "EN";
+    document.getElementById("welcome").innerHTML = "Bienvenue dans notre projet";
 }
