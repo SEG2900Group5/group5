@@ -91,3 +91,107 @@ ul{
     margin-right: 10px;
     vertical-align: middle;
 }
+
+/*start of main body section*/
+
+.mainbody-container {
+    background: #6287f8;
+    z-index: 0;
+    width: 100%;
+    height: 50%;
+    top: 70px;
+    left: 0;
+    position: fixed;
+}
+
+.inside-mainbody {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mainbody-maintext{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
+}
+
+
+.mainbody-subtext {
+    color: white;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+
+
+/*start of secondary body section*/
+
+.secondarybody-container {
+    background: #ff6e27;
+    z-index: 0;
+    width: 100%;
+    height: 80%;
+    top: 500px;
+    left: 0;
+    position: fixed;
+}
+
+.inside-secondarybody {
+    width: 80%;
+    height: 110%;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.secondarybody-maintext {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
+}
+
+
+.secondarybody-subtext {
+    color: white;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+/*button for secondary body*/
+
+.secondarybody-button {
+    background-color: white;
+    color: #ff6e27;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+.content-wrapper {
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+}
