@@ -12,12 +12,123 @@ function validateForm() {
     location.href = "mailto:"+"electrasolutions@electra.ca"+'?cc='+x.value+'&subject='+"Inquiry"+'&body='+y.value;
 }
 
+// Split into multiple functions because otherwise the document would look for elements that do not exist
 function french() {
-    // get all html elements by id and change them to the proper french translation
-    // I should add the ability to go back to english when the button is clicked again
-    document.getElementById("lang").addEventListener("click", french);
-    document.getElementById("lang").innerHTML = "EN";
-    document.getElementById("welcome").innerHTML = "Bienvenue dans notre projet";
-    document.getElementById("about").innerHTML = "À Propos";
-    document.getElementById("price").innerHTML = "Les Prix"
+    // Nav bar
+    var t1 = document.getElementById("lang");
+    var t2 = document.getElementById("home");
+    var t3 = document.getElementById("about");
+    var t4 = document.getElementById("price");
+    // Only need to check if the button has changed
+    if (t1.innerHTML == "FR") {
+        t1.innerHTML = "EN";
+        t2.innerHTML = "Page d'accueil";
+        t3.innerHTML = "À Propos";
+        t4.innerHTML = "Les Prix";
+    }
+    else {
+        t1.innerHTML = "FR";
+        t2.innerHTML = "Home";
+        t3.innerHTML = "About";
+        t4.innerHTML = "Price";
+    }
 }
+
+function french_pricing(){
+    // Nav bar
+    var t1 = document.getElementById("lang");
+    var t2 = document.getElementById("home");
+    var t3 = document.getElementById("about");
+    var t4 = document.getElementById("price");
+    // Only need to check if the button has changed
+    if (t1.innerHTML == "FR") {
+        t1.innerHTML = "EN";
+        t2.innerHTML = "Page d'accueil";
+        t3.innerHTML = "À Propos";
+        t4.innerHTML = "Les Prix";
+    }
+    else {
+        t1.innerHTML = "FR";
+        t2.innerHTML = "Home";
+        t3.innerHTML = "About";
+        t4.innerHTML = "Price";
+    }
+}
+
+function french_about(){
+    // Nav bar
+    var t1 = document.getElementById("lang");
+    var t2 = document.getElementById("home");
+    var t3 = document.getElementById("about");
+    var t4 = document.getElementById("price");
+    // Only need to check if the button has changed
+    if (t1.innerHTML == "FR") {
+        t1.innerHTML = "EN";
+        t2.innerHTML = "Page d'accueil";
+        t3.innerHTML = "À Propos";
+        t4.innerHTML = "Les Prix";
+    }
+    else {
+        t1.innerHTML = "FR";
+        t2.innerHTML = "Home";
+        t3.innerHTML = "About";
+        t4.innerHTML = "Price";
+    }
+}
+
+function french_solutions(){
+    // Nav bar
+    var t1 = document.getElementById("lang");
+    var t2 = document.getElementById("home");
+    var t3 = document.getElementById("about");
+    var t4 = document.getElementById("price");
+    // Only need to check if the button has changed
+    if (t1.innerHTML == "FR") {
+        t1.innerHTML = "EN";
+        t2.innerHTML = "Page d'accueil";
+        t3.innerHTML = "À Propos";
+        t4.innerHTML = "Les Prix";
+    }
+    else {
+        t1.innerHTML = "FR";
+        t2.innerHTML = "Home";
+        t3.innerHTML = "About";
+        t4.innerHTML = "Price";
+    }
+}
+
+function french_contact(){
+    // Nav bar
+    var t1 = document.getElementById("lang");
+    var t2 = document.getElementById("home");
+    var t3 = document.getElementById("about");
+    var t4 = document.getElementById("price");
+    // Only need to check if the button has changed
+    if (t1.innerHTML == "FR") {
+        t1.innerHTML = "EN";
+        t2.innerHTML = "Page d'accueil";
+        t3.innerHTML = "À Propos";
+        t4.innerHTML = "Les Prix";
+    }
+    else {
+        t1.innerHTML = "FR";
+        t2.innerHTML = "Home";
+        t3.innerHTML = "About";
+        t4.innerHTML = "Price";
+    }
+}
+// Splitting these up into each page
+const lang = document.getElementById("lang");
+lang.addEventListener("click", french);
+
+const lang_pricing = document.getElementById("lang");
+lang_pricing.addEventListener("click", french_pricing);
+
+const lang_about = document.getElementById("lang");
+lang_about.addEventListener("click", french_about);
+
+const lang_solutions = document.getElementById("lang");
+lang_solutions.addEventListener("click", french_solutions);
+
+const lang_contact = document.getElementById("lang");
+lang_contact.addEventListener("click", french_contact);
