@@ -11,6 +11,7 @@ body{
 
 .top-navbar {
     text-align: center;
+    margin: 0px;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
     background: #009dc4;
 }
