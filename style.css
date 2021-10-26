@@ -3,9 +3,6 @@ body{
 }
 .title{
     font-family: 'Times New Roman';
-    /* border-color: red;
-    border-width: 3px;
-    border-style: dashed; */
     margin: auto;
     padding: 25px;
     text-align: center;
@@ -13,7 +10,6 @@ body{
 }
 
 .top-navbar {
-    padding: 0.5em;
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
     background: #009dc4;
@@ -56,10 +52,6 @@ body{
     border: 1px solid black;
 }
 
-/* li{
-    float: left;
-} */
-
 ul{
     list-style-type: none;
     margin: 0;
@@ -75,15 +67,14 @@ ul{
     width: 40%;
 }
 
-.nav-title {
+/* .nav-title {
     display: inline;
     color:black;
     text-align: center;
-    /* padding: 14px 16px; */
     text-decoration: wavy;
     margin: auto;
     vertical-align: middle;
-}
+} */
 
 .lang{
     color: black;
