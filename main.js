@@ -150,9 +150,9 @@ var txt = 'The future right at your reach';
 var speed = 50;
 
 function sloganTyper() {
-  if (i < txt.length) {
-    document.getElementById("slogan").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(sloganTyper, speed);
-  }
+    if (i < txt.length) {
+        document.getElementById("slogan").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(sloganTyper, speed);
+    }
 }
