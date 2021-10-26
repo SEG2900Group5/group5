@@ -145,10 +145,10 @@ lang_solutions.addEventListener("click", french_solutions);
 const lang_contact = document.getElementById("lang");
 lang_contact.addEventListener("click", french_contact);
 
+var i = 0;
+var speed = 50;
 function sloganTyper() {
-    var i = 0;
     var txt = 'The future right at your reach';
-    var speed = 50;
     if (i < txt.length) {
         document.getElementById("slogan").innerHTML += txt.charAt(i);
         i++;
