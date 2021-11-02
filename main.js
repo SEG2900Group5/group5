@@ -103,21 +103,42 @@ function french_contact(){
     var t2 = document.getElementById("home");
     var t3 = document.getElementById("about");
     var t4 = document.getElementById("price");
+<<<<<<< HEAD
     var t5 = document.getElementById("review1");
+=======
+    var phone = document.getElementById("phone");
+    var email = document.getElementById("email_prompt");
+    var message = document.getElementById("message_prompt");
+    var send = document.getElementById("send_button");
+>>>>>>> 46ec3572d29475dcabeffd428788c918e626453e
     // Only need to check if the button has changed
     if (t1.innerHTML == "FR") {
         t1.innerHTML = "EN";
         t2.innerHTML = "Page d'accueil";
         t3.innerHTML = "À Propos";
         t4.innerHTML = "Les Prix";
+<<<<<<< HEAD
         t5.innerHTML = "Micheal aime le fait qu'il sache que ses animaux de compagnie sont en sécurité avec Electra pet care";
+=======
+        phone.innerHTML = "Numéro de téléphone";
+        email.innerHTML = "Votre Email";
+        message.innerHTML = "Votre Message";
+        send.innerHTML = "Envoyer";
+>>>>>>> 46ec3572d29475dcabeffd428788c918e626453e
     }
     else {
         t1.innerHTML = "FR";
         t2.innerHTML = "Home";
         t3.innerHTML = "About";
         t4.innerHTML = "Price";
+<<<<<<< HEAD
         t5.innerHTML = "Micheal loves the fact that he knows his pets are safe with Electra pet care";
+=======
+        phone.innerHTML = "Phone Number";
+        email.innerHTML = "Your Email";
+        message.innerHTML = "Your Message";
+        send.innerHTML = "Submit";
+>>>>>>> 46ec3572d29475dcabeffd428788c918e626453e
     }
 }
 // Splitting these up into each page

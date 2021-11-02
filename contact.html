@@ -8,21 +8,18 @@
         <title>Contact</title>
     </head>
     <body>
-        <div class="header">
 
-            <div class="top-navbar your-site your-site-horizontal your-site">
-                <ul class="your-site-list">
-                    <li class="your-site-item your-site-selected"><a href="index.html" class="your-site-link" id="home">Home</a></li>
-                    <li class="your-site-item"><a href="solutions.html" class="your-site-link">Solutions</a></li>
-                    <li class="your-site-item"><a href="pricing.html" class="your-site-link" id="price">Pricing</a></li>
-                    <li class="your-site-item"><a href="about.html" class="your-site-link" id="about">About</a></li>
-                    <li class="your-site-item"><a href="contact.html" class="your-site-link">Contact</a></li>
-                    <h1 class="nav-title">Electra</h1>
-                    <button id="lang" class="lang nav-title" onclick="french_contact()">FR</button>
-                </ul>
-            </div>
-
+        <div class="top-navbar your-site your-site-horizontal">
+            <ul class="your-site-list">
+                <li class="your-site-item your-site-selected"><a href="index.html" class="your-site-link" id="home">Home</a></li>
+                <li class="your-site-item"><a href="solutions.html" class="your-site-link">Solutions</a></li>
+                <li class="your-site-item"><a href="pricing.html" class="your-site-link" id="price">Pricing</a></li>
+                <li class="your-site-item"><a href="about.html" class="your-site-link" id="about">About</a></li>
+                <li class="your-site-item"><a href="contact.html" class="your-site-link">Contact</a></li>
+                <button id="lang" class="lang nav-title" onclick="french_contact()">FR</button>
+            </ul>
         </div>
+<<<<<<< HEAD
         <div class="contact-reviews">
             <div class="contact-review">
                 <img src="Images/happyperson1.jpg" alt="Happy customer" width="400" height="200">
@@ -37,17 +34,20 @@
                 <p>Sarah knows that if she has any troubles she can use the Electra app to help.</p>
             </div>
         </div>
+=======
+
+>>>>>>> 46ec3572d29475dcabeffd428788c918e626453e
         <div class="contact">
             <h2><b>Email</b></h2>
             <p>electrasolutions@electra.ca</p>
-            <h2><b>Phone Number</b></h2>
+            <h2 id="phone"><b>Phone Number</b></h2>
             <p>1-(613)-098-7654</p>
             <form name="contactForm" onsubmit="return validateForm()">
-                <label for="umail">Your Email:</label><br>
+                <label for="umail" id="email_prompt">Your Email:</label><br>
                 <input type="text" id="umail" name="umail"><br>
-                <label for="message">Your Message:</label><br>
+                <label for="message" id="message_prompt">Your Message:</label><br>
                 <input type="text" id="message" name="message" required maxlength="1000" size="70">
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" id="send_button">
             </form>
         </div>
     </body>
