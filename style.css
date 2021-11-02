@@ -67,13 +67,7 @@ ul{
     overflow: hidden;
 }
 
-.contact{
-    border: 3px black;
-    background-color: lightgrey;
-    text-align: center;
-    margin: auto;
-    width: 40%;
-}
+
 
 .nav-title {
     display: inline;
@@ -269,4 +263,32 @@ ul{
 
 .l-box {
     padding: 1em;
+}
+
+/* Contact page */
+.contact-reviews {
+    background-color: #6287f8;
+    width: 80%;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    border: 5px solid orange;
+    padding: 20px;
+}
+
+.contact-review {
+    background-color: black;
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact{
+    border: 3px black;
+    background-color: lightgrey;
+    text-align: center;
+    margin: auto;
+    width: 40%;
 }

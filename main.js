@@ -103,18 +103,21 @@ function french_contact(){
     var t2 = document.getElementById("home");
     var t3 = document.getElementById("about");
     var t4 = document.getElementById("price");
+    var t5 = document.getElementById("review1");
     // Only need to check if the button has changed
     if (t1.innerHTML == "FR") {
         t1.innerHTML = "EN";
         t2.innerHTML = "Page d'accueil";
         t3.innerHTML = "À Propos";
         t4.innerHTML = "Les Prix";
+        t5.innerHTML = "Micheal aime le fait qu'il sache que ses animaux de compagnie sont en sécurité avec Electra pet care";
     }
     else {
         t1.innerHTML = "FR";
         t2.innerHTML = "Home";
         t3.innerHTML = "About";
         t4.innerHTML = "Price";
+        t5.innerHTML = "Micheal loves the fact that he knows his pets are safe with Electra pet care";
     }
 }
 // Splitting these up into each page
