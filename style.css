@@ -196,21 +196,39 @@ ul{
 #app {
     border-style: groove;
     width: 46.5%;
-    height: 175px;
+    height: 350px;
     padding: 20px;
-    line-height: 1.6;
+    line-height: 2.6;
     float: left;
     text-align: center;
+    background-image: url("app.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    color: aliceblue;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
 }
 
 #security {
     border-style: groove;
     width: 46.5%;
-    height: 175px;
-    line-height: 1.6;
+    height: 350px;
+    line-height: 2.6;
     float: right;
     text-align: center;
     padding: 20px;
+    color: aliceblue;
+    background-image: url("security1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% ; 
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
 }
 
 #second-box {
@@ -222,21 +240,41 @@ ul{
     border-style: groove;
     width: 46.5%;
     float: left;
-    line-height: 1.6;
-    height: 175px;
+    line-height: 2.6;
+    height: 350px;
     text-align: center;
     padding: 20px;
+    color: aliceblue;
+    background-image: url("closet2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
 }
 
 #pet {
     border-style: groove;
     width: 46.5%;
     float: right;
-    line-height: 1.6;
-    height: 175px;
+    line-height: 2.6;
+    height: 350px;
     text-align: center;
     padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+        color: aliceblue;
+    
+    background-image: url("pets.jpg");
 }
+
 
 .content {
     padding: 1em 1em 3em;
