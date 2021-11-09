@@ -103,7 +103,9 @@ function french_contact(){
     var t2 = document.getElementById("home");
     var t3 = document.getElementById("about");
     var t4 = document.getElementById("price");
-    var t5 = document.getElementById("review1");
+    var review_1 = document.getElementById("review1");
+    var review_2 = document.getElementById("review2");
+    var review_3 = document.getElementById("review3");
     var phone = document.getElementById("phone");
     var email = document.getElementById("email_prompt");
     var message = document.getElementById("message_prompt");
@@ -114,7 +116,9 @@ function french_contact(){
         t2.innerHTML = "Page d'accueil";
         t3.innerHTML = "À Propos";
         t4.innerHTML = "Les Prix";
-        t5.innerHTML = "Micheal aime le fait qu'il sache que ses animaux de compagnie sont en sécurité avec Electra pet care";
+        review_1.innerHTML = "Micheal aime le fait qu'il sait animaux de compagnie sont en sécurité avec Electra pet care";
+        review_2.innerHTML = "Ruth de Ottawa, Ontario se sent confiant chaque jour sanchant qu'elle est en securité avec Electra home security";
+        review_3.innerHTML = "Sarah sais que si elle a des problèmes, elle peut utiliser laèpplication Electra pour l'aider";
         phone.innerHTML = "Numéro de téléphone";
         email.innerHTML = "Votre Email";
         message.innerHTML = "Votre Message";
@@ -125,7 +129,7 @@ function french_contact(){
         t2.innerHTML = "Home";
         t3.innerHTML = "About";
         t4.innerHTML = "Price";
-        t5.innerHTML = "Micheal loves the fact that he knows his pets are safe with Electra pet care";
+        t5.innerHTML = "Micheal loves the fact that he knows his pets are safe with Electra's pet care.";
         phone.innerHTML = "Phone Number";
         email.innerHTML = "Your Email";
         message.innerHTML = "Your Message";
