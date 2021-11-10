@@ -14,7 +14,7 @@ body{
     text-align: center;
     height: 100%;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    background: #009dc4;
+    background: #ED303C;
 }
 
 .top-navbar.your-site-fixed {
@@ -71,7 +71,7 @@ ul{
 /*start of main body section*/
 
 .mainbody-container {
-    background: #6287f8;
+    background: #3B8183;
     z-index: 0;
     width: 100%;
     height: 50%;
@@ -115,7 +115,7 @@ ul{
 /*start of secondary body section*/
 
 .secondarybody-container {
-    background: #ff6e27;
+    background: #FF9C5B;
     z-index: 0;
     width: 100%;
     height: 80%;

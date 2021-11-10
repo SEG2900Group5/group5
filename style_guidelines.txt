@@ -8,21 +8,21 @@ Colours
 ========
 Colours are essential for a website, and this is why we want to invite the user in with warmth. 
 
-#6287f8
-#ff6e27
-#009dc4
-
-
-Just an example for the rest
+Our colours:
+ - #FAD089
+ - #FF9C5B
+ - #F5634A
+ - #ED303C
+ - #3B8183
 
 Iconography
 ===========
-We will focus on using icons that have a 'flat' design, which adheres to the overall look and feel.
-When selecting an icon, please select the correct icon for the job and keep the following in mind:
+We will focus on using icons that have a 'flat' design, which adheres to the overall look and feel. They will 
+be easy to recognize and give the user a quick and general idea of the type of content the icon relates to.
 
 Typography
 ==========
-We will be using Roboto from Google Fonts.
+We will be using Serif/Times New Roman across the website as it is widely accepted and easy to read.
 
 Links
 =====
@@ -30,4 +30,5 @@ Links will not be underlined and should change color when a user hovers over it.
 
 Buttons
 =======
-Buttons will be flat designed using the chosen colors outlined above.
+Buttons will be flat designed using contrasting pastel colors compared to the ones outlined above that 
+will let the users to notice them immediately and help navigate around the website with ease.
