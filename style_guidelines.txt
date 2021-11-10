@@ -13,7 +13,7 @@ Colours are essential for a website, and this is why we want to invite the user 
 #009dc4
 
 
-Just and example for the rest
+Just an example for the rest
 
 Iconography
 ===========
