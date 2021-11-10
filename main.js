@@ -40,18 +40,50 @@ function french_pricing(){
     var t2 = document.getElementById("home");
     var t3 = document.getElementById("about");
     var t4 = document.getElementById("price");
+    var t5 = document.getElementById("top");
+    var t6 = document.getElementById("description");
+    var t7 = document.getElementById("uni");
+    var t8 = document.getElementById("uniprice");
+    var t9 = document.getElementById("sec1");
+    var t10 = document.getElementById("secprice");
+    var t11 = document.getElementById("fit");
+    var t12 = document.getElementById("fitprice");
+    var t13 = document.getElementById("pet1");
+    var t14 = document.getElementById("petprice");
+    
     // Only need to check if the button has changed
     if (t1.innerHTML == "FR") {
         t1.innerHTML = "EN";
         t2.innerHTML = "Page d'accueil";
         t3.innerHTML = "À Propos";
         t4.innerHTML = "Les Prix";
+        t5.innerHTML = "Prix";
+        t6.innerHTML = "Vous trouverez ici les prix de nos produits et offres spéciales !";
+        t7.innerHTML = "Application universelle";
+        t8.innerHTML = "$9.99/mois";
+        t9.innerHTML = "Sécurité à la maison";
+        t10.innerHTML = "$12.99/mois";
+        t11.innerHTML = "Coordinatrice des tenues digitales";
+        t12.innerHTML = "$2.99/mois";
+        t13.innerHTML = "S'occuper d'un animal";
+        t14.innerHTML = "$4.99/mois";
+        
     }
     else {
         t1.innerHTML = "FR";
         t2.innerHTML = "Home";
         t3.innerHTML = "About";
         t4.innerHTML = "Price";
+        t5.innerHTML = "Pricing";
+        t6.innerHTML = "Here you will find the prices of our products and special offers!";
+        t7.innerHTML = "Universal app";
+        t8.innerHTML = "$9.99/month";
+        t9.innerHTML = "Home security";
+        t10.innerHTML = "$12.99/month";
+        t11.innerHTML = "Digital Outfit Coordinator";
+        t12.innerHTML = "$2.99/month";
+        t13.innerHTML = "Pet Care";
+        t14.innerHTML = "$4.99/month";
     }
 }
 
