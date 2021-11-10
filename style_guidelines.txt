@@ -10,6 +10,7 @@ Colours are essential for a website, and this is why we want to invite the user 
 
 #6287f8
 #ff6e27
+#ffa500
 #009dc4
 
 Iconography
