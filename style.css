@@ -130,14 +130,6 @@ ul{
 }
 
 .inside-secondarybody {
-    width: 80%;
-    height: 110%;
-    margin: auto;
-    position: absolute;
-    top: 100px;
-    left: 0px;
-    bottom: 0;
-    right: 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -163,7 +155,7 @@ ul{
 
 .secondarybody-button {
     background-color: white;
-    color: #ff6e27;
+    color: #6287f8;
     padding: 0.5em 2em;
     border-radius: 5px;
 }
