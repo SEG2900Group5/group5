@@ -79,7 +79,7 @@ ul{
     left: 0;
     position: fixed;
     object-fit: cover;
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     
 }
 
