@@ -72,16 +72,11 @@ ul{
 /*start of main body section*/
 
 .mainbody-container {
-    background-image: url("https://raw.githubusercontent.com/SEG2900Group5/group5/main/Images/SmartHome.png");
-    background-repeat: no-repeat;
-    z-index: 0;
+    background-image: url("/Images/SmartHome.png");
     max-width: 100%;
     height: auto;
     left: 0;
-    position: fixed;
-    object-fit: cover;
-    /*background-repeat: no-repeat;*/
-    
+    object-fit: cover;    
 }
 
 .inside-mainbody {
@@ -318,8 +313,4 @@ ul{
     text-align: center;
     margin: auto;
     width: 40%;
-}
-
-.paragraph-color{
-    color: white;
 }
