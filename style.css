@@ -295,6 +295,7 @@ ul{
     padding: 1em;
     display: inline-block;
     border-radius: 5px;
+
 }
 
 /* Contact page */
@@ -325,4 +326,8 @@ ul{
     text-align: center;
     margin: auto;
     width: 40%;
+}
+
+.paragraph-color{
+    color: white;
 }
