@@ -111,6 +111,7 @@ ul{
     color: #6287f8;
     opacity: 0.8;
     font-style: italic;
+    font-size: 20px;
 }
 
 
@@ -282,6 +283,12 @@ ul{
 
 .content-subhead {
     color: white;
+    color: white;
+    border: 3px solid white;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
 }
 
 .l-box {
