@@ -14,7 +14,8 @@ body{
     text-align: center;
     height: 100%;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    background: #009dc4;
+    /*background: #009dc4;*/
+    background: #6287f8;
 }
 
 .top-navbar.your-site-fixed {
@@ -71,17 +72,19 @@ ul{
 /*start of main body section*/
 
 .mainbody-container {
-    background: #6287f8;
+    background-image: url("https://raw.githubusercontent.com/SEG2900Group5/group5/main/Images/SmartHome.png");
     z-index: 0;
     width: 100%;
-    height: 50%;
-    /* top: 70px; */
+    height: 100%;
     left: 0;
     position: fixed;
+    object-fit: cover;
+    /*background-repeat: no-repeat;*/
+    
 }
 
 .inside-mainbody {
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: auto;
     position: absolute;
@@ -93,10 +96,10 @@ ul{
     text-transform: uppercase;
 }
 
-.mainbody-maintext{
+.mainbody-maintext {
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: #6287f8;
     padding: 1em 1.6em;
     font-weight: 100;
     border-radius: 5px;
@@ -105,7 +108,7 @@ ul{
 
 
 .mainbody-subtext {
-    color: white;
+    color: #6287f8;
     opacity: 0.8;
     font-style: italic;
 }
@@ -283,6 +286,8 @@ ul{
 
 .l-box {
     padding: 1em;
+    display: inline-block;
+    border-radius: 5px;
 }
 
 /* Contact page */
