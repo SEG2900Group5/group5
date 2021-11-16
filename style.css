@@ -73,6 +73,7 @@ ul{
 
 .mainbody-container {
     background-image: url("https://raw.githubusercontent.com/SEG2900Group5/group5/main/Images/SmartHome.png");
+    background-repeat: no-repeat;
     z-index: 0;
     width: 100%;
     height: 100%;
