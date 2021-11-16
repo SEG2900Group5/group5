@@ -78,7 +78,7 @@ ul{
     height: 100%;
     left: 0;
     position: fixed;
-    object-fit: cover;
+    object-fit: fill;
     /*background-repeat: no-repeat;*/
     
 }
