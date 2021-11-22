@@ -72,7 +72,7 @@ ul{
 /*start of main body section*/
 
 .mainbody-container {
-    background-image: url("https://github.com/SEG2900Group5/group5/blob/main/Images/SmartHome.png");
+    background-image: url("/Images/SmartHome.png");
     background-size: contain;
     background-position: center;
     margin:0;
