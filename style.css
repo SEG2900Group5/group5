@@ -266,7 +266,8 @@ ul{
 .content {
     padding: 1em 1em 3em;
     margin:auto;
-    width:60%;
+    width:100%;
+    float:left;
 }
 
 .content-head {
