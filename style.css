@@ -72,11 +72,24 @@ ul{
 /*start of main body section*/
 
 .mainbody-container {
+<<<<<<< HEAD
     background-image: url("/Images/SmartHome.png");
     max-width: 100%;
     height: auto;
     left: 0;
     object-fit: cover;    
+=======
+    background-image: url("https://raw.githubusercontent.com/SEG2900Group5/group5/main/Images/SmartHome.png");
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+>>>>>>> 1a4db1bfb9f70ae1bae80c13c8bb823c990d81e1
 }
 
 .inside-mainbody {
